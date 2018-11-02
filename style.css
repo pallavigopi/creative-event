@@ -1,6 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .email-box{
     display: grid;
-    grid-template-columns: 2/10fr 3/10fr 5/10fr;
+    /* grid-template-columns: 2/10fr 3/10fr 5/10fr; */
+    grid-template-columns: 2fr 3fr 5fr;
 }
 .first-part{
     height: 100vh; 
